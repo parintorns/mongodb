@@ -1,0 +1,7 @@
+mongo-dev:
+  image: mongo:3.2.7
+  ports:
+    - 27017:27017
+  volumes:
+    - ./data/db:/data/db
+
